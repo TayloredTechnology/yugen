@@ -1,4 +1,4 @@
-# Armar
+# Yūgen (幽玄)
 
 A foundation for building auto-documenting & testable cloud agnostic microservices in a serverless environment
 
@@ -8,7 +8,7 @@ We are suffering from a rapid adoption loss of quality movement, where fundament
 
 Many of these are open source, and the number of endpoints that any microservice needs to integrate, verify and keep current with these days is rapidly becoming staggering, and the traditional approach of unit / integration / end to end testing is unable to keep up with this new landscape.
 
->**Armar** is a foundational approach to keep up with this shifting landscape by providing a methodology for developing serverless functions to create highly integratible microservices with a strong focuses on future driven best practices.
+>**Yūgen** is a foundational approach to keep up with this shifting landscape by providing a methodology for developing serverless functions to create highly integratible microservices with a strong focuses on future driven best practices.
 
 ## Features
 

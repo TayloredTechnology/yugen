@@ -1,4 +1,4 @@
-site_name: Armar by Taylored Technology
+site_name: Yūgen by Taylored Technology
 theme: material
 markdown_extensions:
     - pymdownx.tasklist
@@ -12,6 +12,6 @@ extra:
     primary: 'blue grey'
     accent: 'amber'
   logo: 'images/ttlogo.jpg'
-repo_name: 'tayloredtechnology/armar'
-repo_url: 'https://github.com/tayloredtechnology/armar'
+repo_name: 'tayloredtechnology/yugen'
+repo_url: 'https://github.com/tayloredtechnology/yugen'
 site_favicon: 'images/favicon.ico'

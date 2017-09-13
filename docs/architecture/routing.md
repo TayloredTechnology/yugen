@@ -9,7 +9,7 @@ Everything is built ontop of Express, partly because this is the fastest perform
 ## Architecture
 
 ### NanoServices Isolated from eachother
-**Armar** uses a tight coupling between NanoServices and their respective test specifications. For maximum compatibility **Mocha** was used as it enables operation with **Wallabyjs** so tests run concurrently with development.
+**Yūgen** uses a tight coupling between NanoServices and their respective test specifications. For maximum compatibility **Mocha** was used as it enables operation with **Wallabyjs** so tests run concurrently with development.
 
 Each NanoService is an Express Sub-Route, with the Function Being the parent Express Route
 
@@ -63,7 +63,7 @@ Our default approach and recommendation is that matching SemVers allows for all 
 
 #### Apish
 
-For all API's that use OpenAPI / Swagger or API Blueprint, we can autogenerate mocks against them, swapping in our dependencies against thier specification (which we assume works according to their documentation as it should be auto-generated and tested as **Armar** does for you)
+For all API's that use OpenAPI / Swagger or API Blueprint, we can autogenerate mocks against them, swapping in our dependencies against thier specification (which we assume works according to their documentation as it should be auto-generated and tested as **Yūgen** does for you)
 
 **Dredd** then runs against the mocks or they can be used internally
 
@@ -74,4 +74,4 @@ For API's that don't have such excellent integration approaches, Nock is used wh
 
 ### MicroService is a Collection of Functions
 
-Architecturally **Armar** follows the Microservice -> Functions -> NanoServices approach so everything in the base roots directory should be a function and each function should have a set of microservices that enable it to work.
+Architecturally **Yūgen** follows the Microservice -> Functions -> NanoServices approach so everything in the base roots directory should be a function and each function should have a set of microservices that enable it to work.
