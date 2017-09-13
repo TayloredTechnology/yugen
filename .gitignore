@@ -1,0 +1,7 @@
+tmp-*
+node_modules/
+dist/
+yarn-error.log
+.env
+npm-debug.log
+*debug.log.*
