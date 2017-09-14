@@ -3,7 +3,7 @@ global.reqlib = require('app-root-path').require
 
 // NPM Requires
 const app = require('express')()
-// TODO remove dotenv for cloud compatible alternative: autoconfig
+reqlib('/helpers/config-init')()
 require('dotenv-safe').load()
 
 // Library Requires

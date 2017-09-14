@@ -1,6 +1,7 @@
 tmp-*
 node_modules/
 dist/
+site/
 yarn-error.log
 .env
 .env.development

@@ -1,8 +1,8 @@
 {
-  "name": "clubhouse-hugo",
+  "name": "yugen",
   "private": true,
   "version": "0.1.0",
-  "description": "clubhouse publishing integration for hugo static sites",
+  "description": "foundation for serverless microservices / functions / nanoservices",
   "main": "index.js",
   "quokka": {},
   "dependencies": {
@@ -41,14 +41,15 @@
     "faker": "^4.1.0",
     "mocha": "^3.5.0",
     "nock": "^9.0.14",
+    "nunjucks": "^3.0.1",
+    "nunjucks-cli": "^0.5.1",
     "prompt-password": "^1.2.0",
-    "proxyquire": "^1.8.0",
     "quibble": "^0.5.1",
     "supertest": "^3.0.0",
     "swagger-spec-express": "^2.0.3",
     "testdouble": "^3.2.4",
     "uid-safe": "^2.1.5",
-    "widdershins": "^2.1.5"
+    "widdershins": "^2.2.0"
   },
   "scripts": {
     "test": "node_modules/.bin/mocha helpers/helper.js routes/**/*spec.js",
