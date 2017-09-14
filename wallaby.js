@@ -31,6 +31,7 @@ module.exports = () => {
       global.reqlib = require('app-root-path').require
       var tf = wallaby.testFramework
       tf.timeout(5000)
+      reqlib('/helpers/config-init')()
       require('dotenv-safe').load()
 
       // quibble line necessary due to wallabyjs callback stack

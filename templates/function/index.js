@@ -5,15 +5,12 @@ const path = require('upath')
 
 // Library Requires
 const users = require('./users')
-// const users = reqlib('routes/example/users')
+const config = reqlib('/helpers/config')()
 
 // Module Variables
 
 const dirname = '/' + path.dirname(path.normalize(__filename)).split('/').pop()
-const githubMiddleware = require('github-webhook-middleware')({
-  secret: 'itStarts',
-  limit: '1mb', // <-- optionally include the webhook json payload size limit, useful if you have large merge commits.  Default is '100kb'
-})
+const githubMiddleware = require('github-webhook-middleware')(config.githubMiddleware)
 
 module.exports = function(app) {
   var route = express.Router({

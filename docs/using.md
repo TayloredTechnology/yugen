@@ -1,9 +1,8 @@
 # Using Yūgen
 
-
 ## New MicroService
 
-TODO upgrade to Yeoman generator
+TODO upgrade to Nunjucks generator
 
 Remember a MicroService is the collection of Functions & NanoServices necessary for executing your specific business task / integration / requirement within a Cloud / Serverless scope.
 

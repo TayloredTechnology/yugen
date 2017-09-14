@@ -1,6 +1,9 @@
 # Yūgen (幽玄)
 
-A foundation for building auto-documenting & testable cloud agnostic microservices in a serverless environment
+>An awareness of the Universe that triggers emotional responses too deep and powerful for words.
+
+
+… foundation for building auto-documenting & testable cloud microservices / functions & nanoservices in a serverless environment
 
 ## Purpose
 
